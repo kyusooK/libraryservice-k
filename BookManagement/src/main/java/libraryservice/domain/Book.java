@@ -57,10 +57,6 @@ public class Book {
         return bookRepository;
     }
 
-    public void RegisterBook() {
-        //
-    }
-
     //<<< Clean Arch / Port Method
     public static void loanStatusUpdatePolicy(LoanCreated loanCreated) {
         //implement business logic here:
